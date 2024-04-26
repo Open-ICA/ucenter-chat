@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ucenter Chat 安装程序</title>
+	</head>
+	<body>
+		<h1>Ucenter Chat 安装程序</h1>
+		<p>完成安装后，请将install目录删除。</p>
+		<form action="aptos.php" method="post">
+			<table>
+				<tr>
+					<td>站点名：</td><td><input name="site-name"/></td>
+				</tr>
+				<tr>
+					<td>主站地址：</td><td><input name="site-url"/></td>
+				</tr>
+				<tr>
+					<td>用户主页地址：</td><td><input name="site-user-page"/></td>
+				</tr>
+				<tr>
+					<td></td><td>（用户uid以 {uid} 表示）</td>
+				</tr>
+				<tr>
+					<td>本应用web目录：</td><td><input value="/" name="folder"/></td>
+				</tr>
+				<tr>
+					<td>UCenter配置：</td><td><textarea name="ucenter-config"></textarea></td>
+				</tr>
+			</table>
+			<input value="安装" type="submit">
+		</form>
+	</body>
+</html>

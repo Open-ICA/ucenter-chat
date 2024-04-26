@@ -1,0 +1,15 @@
+<?php
+//可以改
+define("G_SiteName","{discuz-name}");
+define("G_SiteURI","{discuz-url}");
+define("G_UserProfileURI","{discuz-user-url}");
+
+//懂技术的可以改
+define("G_SiteFolder","{site-folder}");
+define("G_CookiePrefix","{prefix}_");
+define("G_TokenSecret","{token-secret}");
+
+//不能改
+define("G_InApp",true);
+define('G_SITE_ROOT', substr(dirname(__FILE__), 0, -3));
+?>
